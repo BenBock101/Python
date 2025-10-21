@@ -1,3 +1,4 @@
-for i in range(0, 21, 2):
-    print(i, end=" ")
-print()  
+start_num = int(input("Enter starting number: "))
+for i in range(start_num, 0, -1):
+    print(i)
+print("Liftoff!") 
